@@ -1,0 +1,287 @@
+body {
+	margin: 0;
+	font-family: roboto;
+}
+nav {
+	width: 80%;
+	float: right;
+	color: white;
+	margin-left: 10%;
+	margin-right: 10%;
+
+}
+
+nav ul {
+	float: right;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-left: 15px;
+	margin-top: 20px;
+}
+
+nav ul li a{
+	color: white;
+	text-decoration: none;
+}
+
+.logo {
+	float: left;
+}
+
+.logo img {
+	width: 25%;
+	margin-top: 20px;
+}
+
+
+.banner {
+	width: 100%;
+	position: static;
+	background-image: url("images/images_cv/bg.jpeg");
+	background-repeat: no-repeat;
+	background-size: 110%;
+	background-position: center;
+	padding-bottom: 180px;
+}
+
+.titulo {
+	position: relative;
+	color: white;
+	text-align: center;
+	margin-left: 25%;
+	width: 50%
+}
+
+.titulo h1{
+	font-weight: 300;
+	font-size: 45px;
+	text-transform: uppercase;
+	margin-top: 0;
+}
+
+.boton-blue {
+	height: 50px;
+	width: 150px;
+	background-color: #337AB7;
+	border-radius: 7px;
+	position: relative;
+	clear: left;
+	margin-left: 38%;
+	display: inline-block;
+}
+
+.boton-blue a{
+	text-decoration: none;
+	color: white;
+	display: inline-block;
+	position: relative;
+	margin: 15px 0  0 25px;
+}
+
+.boton-green {
+	height: 50px;
+	width: 150px;
+	background-color: #5CB85C;
+	border-radius: 5px;
+	position: absolute;
+	display: inline-block;
+	margin-left: 10px
+}
+
+.boton-green a{
+	text-decoration: none;
+	color: white;
+	display: inline-block;
+	position: relative;
+	margin: 15px 0 0 40px;
+}
+
+.centrado-1{
+	display: block;
+	width: 50%;
+	margin-left: 25%;
+	color: rgb(255, 255, 255);
+}
+
+.centrado-1 p{
+	font-weight: 300;
+	text-align: center;
+}
+
+.centrado-2{
+	display: block;
+	position: static;
+	width: 50%;
+	margin-left: 25%;
+	margin-top: 40px;
+	text-align: center;
+	color: #333333;
+}
+
+.centrado-2 h3{
+	text-transform: uppercase;
+}
+
+.centrado-2 p{
+	font-size: 14px;
+}
+
+.centrado-2 img{
+	display: block;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+}
+
+.sección1 {
+
+	width: 100%;
+	background-color: rgb(255, 255, 255);
+	position: static;
+}
+
+.sección2 {
+	width: 100%;
+	background-color: #FAFAFA;
+	border: 1px solid #CCCCCC;
+	display: block;
+}
+
+.centrado-3{
+	display: block;
+	position: relative;
+	float: left;
+	width: 50%;
+	margin-left: 25%;
+	margin-top: 60px;
+	text-align: center;
+	color: #333333;
+}
+
+.centrado-3 h3{
+	text-transform: uppercase;
+}
+
+.centrado-3 p{
+	font-size: 14px;
+}
+.centrado-31 p{
+	font-size: 14px;
+	padding-bottom: 20px;
+}
+
+
+.boton-blue2 {
+	height: 50px;
+	width: 150px;
+	background-color: #337AB7;
+	border-radius: 7px;
+	position: relative;
+	clear: left;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.boton-blue2 a{
+	text-decoration: none;
+	color: white;
+	display: inline-block;
+	position: relative;
+	margin: 15px 0  0 25px;
+}
+
+.centrado-31{
+	display: block;
+	position: relative;
+	width: 50%;
+	margin-left: 25%;
+	text-align: center;
+	color: #333333;
+}
+
+
+.sección3 {
+	height: 200px;
+	width: 100%;
+	background-color: ;
+	position: relative;
+	display: block;
+}
+
+.col-1 {
+	display: inline-block;
+	position: static;
+	clear: left;
+	color: #333333;
+	width: 20%;
+	margin-left:20%;
+	font-weight: 400;
+	font-size: 14px;	
+	line-height: 25px;
+}
+
+.col-1 h4 {
+	font-weight: 400;
+	font-size: 20px;
+	margin-bottom: 10px;	
+}
+
+.col-1 a{
+	text-decoration: none;
+	color: #337AB7;
+}
+
+.col-2{
+	display: inline-block;
+	position: absolute;
+	top: 0;
+}
+
+.col-2 h4{
+	font-weight: 400;
+	font-size: 20px;
+	margin-bottom: 10px;	
+}
+
+.col-2 p{
+	font-size: 14px;
+}
+
+
+.botonrelleno p{
+	padding: 8px 35px 8px 8px;
+	border: 1px solid #CCCCCC;
+	border-radius: 3px;
+	display: inline;
+	float: left;
+	color: #CCCCCC;
+}
+
+
+.boton4 p{
+	display: inline;
+	padding: 8px;
+	border: 1px	solid #CCCCCC;
+	border-radius: 3px;
+	float: left;
+	margin-left: 10px;
+}
+
+footer{
+	height: 100px;
+	background-color: #222222;
+}
+
+footer p{
+	margin-left: 10%;
+	margin-top: 35px;
+	text-transform: uppercase;
+	color: white;
+	font-size: 20px;
+	font-weight: 300;
+	float: left;
+}

@@ -1,0 +1,56 @@
+body {
+	margin: 0;
+	font-family: roboto;
+}
+nav {
+	float: right;
+	color: white;
+	margin-right: 10%;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-left: 15px;
+	margin-top: 20px;
+}
+
+.logo {
+	float: left;
+	margin-left: 10%;
+}
+
+.logo img {
+	width: 25%;
+	margin-top: 20px;
+}
+
+
+.banner {
+	height: 500px;
+	width: 100%;
+	position: static;
+	background-image: url("images/images_cv/bg.jpeg");
+	background-size: 100%;
+	background-position: center;
+}
+
+.sección1 {
+	height: 500px;
+	width: 100%;
+	background-color: gray;
+	position: static;
+}
+
+.sección2 {
+	height: 500px;
+	width: 100%;
+	background-color: blue;
+	position: static;
+}
+
+.sección3 {
+	height: 500px;
+	width: 100%;
+	background-color: black;
+	position: static;
+}
